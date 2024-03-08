@@ -64,7 +64,7 @@
 <script type="module">
     import { get_movies } from '../javascript/get-movies.js';
 
-    const createImag = (movie) => {
+    const createImage = (movie) => {
         const imag = movie.primaryImage.url
         const alternativeText = movie.primaryImage.caption.plainText
         const imgElement = document.createElement("img");
@@ -80,9 +80,7 @@
                 const container = document.createElement("div")
                 container.className = "poster-container"
 
-                const imgElement = createImag(movie)
-                imgElement.style.height = "400px";
-                imgElement.style.width = "100%";
+                const imgElement = createImage(movie)
                 container.appendChild(imgElement)
 
                 const buttonElement = document.createElement("button")
