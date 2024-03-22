@@ -4,6 +4,6 @@ export const OPTIONS = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': '',
-		'X-RapidAPI-Host': ''
+		'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
 	}
 };
