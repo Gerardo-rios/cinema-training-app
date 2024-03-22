@@ -8,7 +8,7 @@ beforeEach(() => {
   fetch.mockClear();
 });
 
-describe("get_movies", () => {
+describe("GET_MOVIES Function Tests", () => {
   it("Should return the movies when the API call is successfully done", async () => {
     const mockedResponse = {
       results: [
